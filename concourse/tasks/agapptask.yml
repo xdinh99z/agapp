@@ -1,0 +1,14 @@
+---
+platform: linux
+image_resource:
+  type: docker-image
+  source: {repository: node}
+inputs:
+  - name: agapp
+    path: agapp
+run:
+  path:scripts/build.sh
+   
+
+
+  

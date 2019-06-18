@@ -1,0 +1,32 @@
+---
+resources:
+  - name: agapp
+    type: git
+    source:
+      uri: https://github.com/xdinh99z/FYI.git
+      branch: master
+
+  - name: deploy-web-app
+    type: cf
+    source:
+      api: api.sys.sea.preview.pcf.manulife.com
+      username: Huu_Pham_Q
+      password: "Vietnam9"
+      organization: SANDBOX
+      space: VN_POS
+      skip_cert_check: true
+
+jobs:
+  - name: FYIagappDeloy
+    public: true
+    serial: true
+    plan:
+      - get: app
+        trigger: true
+      - task: agapp-tests
+        file:tasks/agapptask.yml
+
+      - put: deploy-web-app
+        params:
+          manifest: app/mainfest.yml
+          path: app
