@@ -24,7 +24,7 @@ jobs:
       - get: app
         trigger: true
       - task: agapp-tests
-        file:tasks/agapptask.yml
+        file: tasks/agapptask.yml
 
       - put: deploy-web-app
         params:
