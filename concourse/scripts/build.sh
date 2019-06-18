@@ -8,7 +8,7 @@
 #mkdir -p $DIST_FOLDER
 cd agapp
 
-npm install
+npm install --ignore-scripts
 npm install @angular/cli
 npm run build --prod
 
