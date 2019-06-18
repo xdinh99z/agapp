@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Login to team
-fly --target manulife-ci login --team-name APAC_POS --concourse-url https://concourse.platform.manulife.io --insecure
+fly_m --target manulife-ci login --team-name APAC_POS --concourse-url https://concourse.platform.manulife.io --insecure
 
 # Create / Update pipeline
-fly -t manulife-ci set-pipeline -p pos-report-template-sg-ci -c pipeline.yml -l config-sg.yml -l credentials.yml
+fly_m -t manulife-ci set-pipeline -p demo-web-agapp -c pipeline.yml -l credentials.yml
 
 # Unpause pipeline
-fly -t manulife-ci unpause-pipeline -p pos-report-template-sg-ci
+fly_m -t manulife-ci unpause-pipeline -p demo-web-agapp
 
 # Unpause job
 #fly -t manulife-ci unpause-job -j pos-report-template-sg-ci/deploy-dev

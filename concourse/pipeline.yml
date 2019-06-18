@@ -21,12 +21,12 @@ jobs:
     public: true
     serial: true
     plan:
-      - get: app
+      - get: agapp
         trigger: true
-      - task: agapp-tests
-        file: tasks/agapptask.yml
+      - task: agapptask
+        file: agapp/concourse/tasks/agapptask.yml
 
       - put: deploy-web-app
         params:
-          manifest: app/mainfest.yml
-          path: app
+          manifest: agapp/mainfest.yml
+          path: agapp
