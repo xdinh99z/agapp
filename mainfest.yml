@@ -5,4 +5,4 @@ applications:
   memory: 512M
   random-route: true
   busildpack: staticfile_buildpack
-  path: dist
+  path: agapp/dist/agapp
