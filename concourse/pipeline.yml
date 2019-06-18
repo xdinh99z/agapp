@@ -3,7 +3,7 @@ resources:
   - name: agapp
     type: git
     source:
-      uri: https://github.com/xdinh99z/FYI.git
+      uri: https://github.com/xdinh99z/agapp.git
       branch: master
 
   - name: deploy-web-app
