@@ -9,7 +9,7 @@
 cd agapp
 
 npm install --ignore-scripts
-npm install @angular/cli
+npm install -g @angular/cli > /dev/null
 npm run build --prod
 
 #cd dist
