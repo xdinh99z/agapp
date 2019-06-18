@@ -1,6 +1,6 @@
 ---
 applications:
-- name: FYIUIDeloy
+- name: FYIagappDeloy
   disk: 256M
   memory: 512M
   random-route: true
