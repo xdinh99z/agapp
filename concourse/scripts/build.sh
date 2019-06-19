@@ -18,6 +18,6 @@ cp Staticfile dist/agapp
 
 ls -la
 echo "*************************************"
-cd dist/agapp
-ls -la
+ls -la dist/agapp
+
 #cp -R $OUTPUT_BUILD_FOLDER/* $DIST_FOLDER/
