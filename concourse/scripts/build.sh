@@ -8,8 +8,8 @@
 #mkdir -p $DIST_FOLDER
 cd agapp
 
-npm config set registry https://registry.npmjs.org/
-npm install --ignore-scripts
+#npm config set registry https://registry.npmjs.org/
+#npm install --ignore-scripts
 npm install -g @angular/cli > /dev/null
 npm run build --prod
 cp Staticfile dist/agapp
