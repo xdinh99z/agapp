@@ -6,5 +6,5 @@ applications:
   random-route: true
   buildpacks: 
     - staticfile_buildpack
-  path: agapp
+  path: agapp/dist/agapp
   stack: cflinuxfs3

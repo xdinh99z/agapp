@@ -29,4 +29,4 @@ jobs:
       - put: deploy-web-app
         params:
           manifest: agapp/mainfest.yml
-          path: agapp/dist/agapp
+          path: agapp
