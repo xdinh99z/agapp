@@ -11,6 +11,7 @@ cd agapp
 #npm config set registry https://registry.npmjs.org/
 #npm install --ignore-scripts
 #npm install -g @angular/cli
+npm i
 npm run build --prod
 cp Staticfile dist/agapp
 
