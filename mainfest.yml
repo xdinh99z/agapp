@@ -4,5 +4,7 @@ applications:
   disk: 256M
   memory: 512M
   random-route: true
-  busildpack: staticfile_buildpack
+  busildpacks: 
+    - staticfile_buildpack
   path: agapp/dist/agapp
+  stack: cflinuxfs3
