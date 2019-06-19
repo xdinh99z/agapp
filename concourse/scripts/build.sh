@@ -12,6 +12,7 @@ cd agapp
 #npm install --ignore-scripts
 #npm install -g @angular/cli
 npm install -g @angular/cli@8.0.3 > /dev/null
+npm install @angular-devkit/build-angular > /dev/null
 #npm run build --prod
 ng build --prod
 cp Staticfile dist/agapp
