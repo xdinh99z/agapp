@@ -28,5 +28,5 @@ jobs:
 
       - put: deploy-web-app
         params:
-          manifest: target/manifest.yml
-          path: target
+          manifest: agapp/target/manifest.yml
+          path: agapp/target
