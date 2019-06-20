@@ -13,8 +13,8 @@ cd agapp
 #npm install -g @angular/cli
 #npm install -g @angular/cli@8.0.3 > /dev/null
 #npm install @angular-devkit/build-angular > /dev/null
-#npm i > /dev/null
-#npm run build --prod
+npm i > /dev/null
+npm run build --prod
 #ng build --prod
 cp Staticfile target
 #cp manifest.yml target

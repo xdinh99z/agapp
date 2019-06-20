@@ -6,9 +6,9 @@ image_resource:
 inputs:
   - name: agapp
     path: agapp
-#outputs:
-#  - name: agapp
-#    path: agapp/target
+outputs:
+  - name: agapp
+    path: agapp/target
 run:
   path: bash
   args: agapp/concourse/scripts/build.sh
