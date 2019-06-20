@@ -1,0 +1,10 @@
+---
+applications:
+- name: FYIappDeloy
+  disk: 256M
+  memory: 512M
+  random-route: true
+  buildpacks:
+    - staticfile_buildpack
+  path: ./
+  stack: cflinuxfs3
