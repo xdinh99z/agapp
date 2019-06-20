@@ -17,7 +17,7 @@ cd agapp
 #npm run build --prod
 #ng build --prod
 cp Staticfile target
-#cp manifest.yml target
+cp manifest.yml target
 
 #cd dist
 
