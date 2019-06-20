@@ -15,12 +15,13 @@ npm install -g @angular/cli@8.0.3 > /dev/null
 npm install @angular-devkit/build-angular > /dev/null
 #npm run build --prod
 ng build --prod
-#cp Staticfile dist/agapp
+cp Staticfile dist/agapp
+cp mainfest.yml dist/agapp
 
 #cd dist
 
 ls -la
-#echo "*************************************"
-#ls -la dist/agapp
+echo "*************************************"
+ls -la dist/agapp
 
 #cp -R $OUTPUT_BUILD_FOLDER/* $DIST_FOLDER/
