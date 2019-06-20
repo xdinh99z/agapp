@@ -16,7 +16,7 @@ npm install @angular-devkit/build-angular > /dev/null
 #npm run build --prod
 ng build --prod
 cp Staticfile target
-#cp mainfest.yml dist/agapp
+cp manifest.yml target
 
 #cd dist
 
