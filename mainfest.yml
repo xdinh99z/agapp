@@ -1,10 +1,10 @@
 ---
 applications:
 - name: FYIagappDeloy
+  path: ./agapp/dist/agapp
   disk: 256M
   memory: 512M
   random-route: true
   buildpacks: 
     - staticfile_buildpack
-  path: agapp/dist/agapp
   stack: cflinuxfs3
