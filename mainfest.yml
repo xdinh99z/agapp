@@ -1,7 +1,7 @@
 ---
 applications:
 - name: FYIagappDeloy
-  path: agapp
+  path: agapp/dist/agapp
   disk: 256M
   memory: 512M
   random-route: true
