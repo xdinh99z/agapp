@@ -1,10 +1,10 @@
 ---
 applications:
-- name: FYIUIDeloy
+- name: FYIappDeloy
   disk: 256M
   memory: 512M
   random-route: true
-  busildpacks:
+  buildpacks:
     - staticfile_buildpack
-  path: dist
+  path: agapp/target
   stack: cflinuxfs3
