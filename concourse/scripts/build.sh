@@ -9,7 +9,7 @@
 cd agapp
 
 #npm config set registry https://registry.npmjs.org/
-npm cache clean
+npm cache clean --force 
 npm i > /dev/null
 #npm install --ignore-scripts > /dev/null
 npm install -g @angular/cli > /dev/nulls
