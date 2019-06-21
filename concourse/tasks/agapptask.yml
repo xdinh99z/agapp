@@ -9,7 +9,3 @@ inputs:
 run:
   path: bash
   args: agapp/concourse/scripts/build.sh
-   
-
-
-  
