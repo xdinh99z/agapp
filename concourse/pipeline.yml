@@ -26,9 +26,8 @@ jobs:
       - task: agapptask
         file: agapp/concourse/tasks/agapptask.yml
       
-      -task: deloyapp
-       file: agapp/concourse/tasks/deloyapp.yml
-       trigger: true
+      - task: deloyapp
+        file: agapp/concourse/tasks/deloyapp.yml
 
       - put: deploy-web-app
         params:

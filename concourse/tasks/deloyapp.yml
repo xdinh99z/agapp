@@ -7,3 +7,5 @@ inputs:
   - name: agapp
     path: agapp
   - name: buildagapp
+run:
+  path: bash
