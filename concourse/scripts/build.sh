@@ -17,8 +17,8 @@ npm install -g @angular/cli > /dev/nulls
 #npm i > /dev/null
 npm run build --prod
 #ng build --prod
-#cp Staticfile target
-#cp manifest.yml target
+cp Staticfile target
+cp manifest.yml target
 
 #cd dist
 
