@@ -6,8 +6,9 @@ image_resource:
 inputs:
   - name: agapp
     path: agapp
+  - name: buildagapp
 outputs:
-  - name: agapp
+  - name: buildagapp
     path: agapp/target
 run:
   path: bash
