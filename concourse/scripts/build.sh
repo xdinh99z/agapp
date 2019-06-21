@@ -18,6 +18,7 @@ cd agapp
 #ng build --prod
 cp Staticfile target
 cp manifest.yml target
+cp concourse/scripts/copyfile.sh target
 
 #cd dist
 

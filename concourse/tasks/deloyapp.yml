@@ -5,9 +5,7 @@ image_resource:
   source: {repository: node}
 inputs:
   - name: buildagapp
-
-- put: deploy-web-app
-    params:
-     manifest: buildagapp
-     path: buildagapp/manifest.yml
+run:
+  path: bash
+  args: copyfile.sh
   
