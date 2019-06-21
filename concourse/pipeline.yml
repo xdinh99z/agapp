@@ -29,7 +29,3 @@ jobs:
       - task: deloyapp
         file: agapp/concourse/tasks/deloyapp.yml
 
-      - put: deploy-web-app
-        params:
-          manifest: buildagapp
-          path: buildagapp/manifest.yml
