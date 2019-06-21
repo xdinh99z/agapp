@@ -5,7 +5,10 @@ image_resource:
   source: {repository: node}
 inputs:
   - name: agapp
-    path: agapp 
+    path: agapp
+outputs:
+  - name: agapp
+  - path: agapp/target
 run:
   path: bash
   args: agapp/concourse/scripts/build.sh
