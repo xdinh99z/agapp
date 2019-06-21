@@ -25,11 +25,8 @@ jobs:
         trigger: true
       - task: agapptask
         file: agapp/concourse/tasks/agapptask.yml
-      
-      - task: deloyapp
-        file: agapp/concourse/tasks/deloyapp.yml
 
       - put: deploy-web-app
         params:
-          manifest: buildagapp
-          path: buildagapp/manifest.yml
+          manifest: agapp
+          path: agapp/target/manifest.yml
