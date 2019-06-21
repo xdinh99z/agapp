@@ -4,8 +4,6 @@ image_resource:
   type: docker-image
   source: {repository: node}
 inputs:
-  - name: agapp
-    path: agapp
   - name: buildagapp
 run:
   path: buildagapp
