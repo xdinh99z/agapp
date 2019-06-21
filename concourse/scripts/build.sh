@@ -8,8 +8,7 @@
 #mkdir -p $DIST_FOLDER
 cd agapp
 
-#npm config set registry https://registry.npmjs.org/
-npm cache clean --force 
+#npm config set registry https://registry.npmjs.org/s
 npm i > /dev/null
 #npm install --ignore-scripts > /dev/null
 npm install -g @angular/cli > /dev/nulls

@@ -8,7 +8,7 @@ inputs:
     path: agapp
 outputs:
   - name: deploy-web-app
-    path: agapp/target
+    path: agapp/dist/agapp
 run:
   path: bash
   args: agapp/concourse/scripts/build.sh
