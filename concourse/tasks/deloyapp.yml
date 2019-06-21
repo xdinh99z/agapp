@@ -6,4 +6,6 @@ image_resource:
 inputs:
   - name: buildagapp
 run:
-  path:
+  path: bash
+  args: agapp/concourse/scripts/copyfile.sh
+  
