@@ -6,6 +6,5 @@ image_resource:
 inputs:
   - name: buildagapp
 run:
-  path: bash
-  args: copyfile.sh
+  path: copyfile.sh
   
