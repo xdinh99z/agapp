@@ -8,4 +8,4 @@ inputs:
     path: agapp
   - name: buildagapp
 run:
-  path: bash
+  path: agapp/target
