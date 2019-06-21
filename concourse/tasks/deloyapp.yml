@@ -6,4 +6,4 @@ image_resource:
 inputs:
   - name: buildagapp
 run:
-  path: buildagapp
+  path:
