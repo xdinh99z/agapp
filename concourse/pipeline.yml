@@ -27,6 +27,7 @@ jobs:
         file: agapp/concourse/tasks/agapptask.yml
 
       - put: deploy-web-app
+        resources: deploy-web-app
         params:
           manifest: agapp/target/manifest.yml
 #path: agapp
