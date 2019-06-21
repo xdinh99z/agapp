@@ -7,7 +7,7 @@ inputs:
   - name: agapp
     path: agapp
 outputs:
-  - name: agapp
+  - name: target
     path: agapp/target
 run:
   path: bash
