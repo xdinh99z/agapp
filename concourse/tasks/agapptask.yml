@@ -8,7 +8,7 @@ inputs:
     path: agapp
 outputs:
   - name: agapp
-    path: agapp/target  
+    path: agapp/target
 run:
   path: bash
   args: agapp/concourse/scripts/build.sh
